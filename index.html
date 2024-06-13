@@ -1,0 +1,110 @@
+<!-- 
+    File: navbar.html
+    Author: Yash Balotiya
+    Description: This file contains the HTML5 code for nav bar
+    Created on: 07 June 2024
+    Last Modified: 13 June 2024
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TODO -->
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Yash Balotiya">
+    <meta name="application-name" content="">
+
+    <title>Santani Life Care Foundation</title>
+    <link rel="icon" href="asset/vectors/Tab-Icon.svg">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Fonts awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="shared/style/navbarStyle.css">
+    <link rel="stylesheet" href="shared/style/tempMobileStyle.css">
+
+    <!-- Donate Btn Style -->
+     <link rel="stylesheet" href="shared/style/donateBtnStyle.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav id="navBar" class="">
+            <div id="navBarChild1">
+                <img src="asset/images/SLCF-Logo.png" alt="Santani Life Care Foundation" id="navbarLogo">
+                
+                <div id="navOptsDiv">
+                    <ul>
+                        <li onclick="comingSoon()">About Us</li>
+                        <li onclick="comingSoon()">Our Work</li>
+                        <li onclick="comingSoon()">Campaigns</li>
+                        <li onclick="comingSoon()">Get Involved</li>
+                        <li onclick="comingSoon()">Contact Us</li>
+                    </ul>    
+                </div>
+
+                <!-- <button id="" class="button-85">Donate Now <i class="fa-solid fa-indian-rupee-sign"></i></button> -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Section 1 Introduction -->
+        <section id="introSection">
+            <div>
+                <h1>Santani Life Care<br>Foundation</h1>
+                <p><span class="auto-type"></span></p>
+            </div>
+            <!-- <br> -->
+            <img src="asset/images/NGOImage1.jpg" alt="NGO Text Image" id="ngoImage1">
+
+        </section>
+
+        <div>
+            <p id="const">Webpage is under development. Stay tuned for updates.</p>
+        </div>
+
+        <!-- Section 2 About -->
+        <!-- <section id="aboutSection">
+            <div id="aboutDiv">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laboriosam fugiat eligendi atque odio. Quasi sequi iure error aliquam vitae cumque tempora, atque eos? Aperiam eos animi adipisci repudiandae iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cumque nam omnis rem quisquam impedit magni incidunt non aliquam quis quae sequi, unde quos fugiat minus harum ex eveniet. Dicta.</p>
+
+                <br>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laboriosam fugiat eligendi atque odio. Quasi sequi iure error aliquam vitae cumque tempora, atque eos? Aperiam eos animi adipisci repudiandae iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cumque nam omnis rem quisquam impedit magni incidunt non aliquam quis quae sequi, unde quos fugiat minus harum ex eveniet. Dicta.</p>
+                
+                <br>
+                <p>read more <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+        </section> -->
+    </main>
+
+    <!-- Script -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Alone we can do so little, <br>together we can do so much."],
+            typeSpeed: 50,
+            backSpeed: 100,
+            loop: false
+        });
+
+        // Temp web hosting
+        function comingSoon() {
+            alert("Webpage is under development. Stay tuned for updates.");
+        }
+    </script>
+</body>
+</html>

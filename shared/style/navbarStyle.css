@@ -1,0 +1,101 @@
+/*
+ * File: navbarStyle.css
+ * Author: Yash Balotiya
+ * Description: This file contains all the styling part of the navbar
+ * Created on: 07 June 2024
+ * Last Modified: 07 June 2024
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato"; 
+}
+
+#navBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+#navBarChild1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+#navbarLogo { width: 150px; }
+
+#navOptsDiv { width: 600px; }
+
+#navOptsDiv ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navOptsDiv ul li {
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.fa-indian-rupee-sign { margin-left: 4px; }
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 100px 0;
+}
+
+#ngoImage1 { width: 700px; }
+
+#introSection div h1 { font-size: 50px; }
+
+#introSection div p { font-size: 22px; }
+
+.fa-heart { color: red; }
+
+/* Glass Effect */
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#aboutSection {
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f2f3;
+    padding: 40px;
+}
+
+#aboutDiv {
+    text-align: center;
+    width: 1200px;
+}
+
+#const {
+    display: none;
+}

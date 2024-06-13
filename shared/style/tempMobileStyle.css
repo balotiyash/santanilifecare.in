@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+    #navOptsDiv {
+        display: none;
+    }
+    
+    #navBar, body {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+    }
+
+    #navBarChild1 {
+        justify-content: center;
+    }
+
+    #introSection {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #introSection div h1 {
+        font-size: 8vw;
+        margin: 50px 0;
+        width: 100vw;
+    }
+
+    .auto-type {
+        font-size: 5vw;
+    }
+
+    #ngoImage1 {
+        width: 90vw;
+    }
+
+    #const {
+        display: block;
+        margin: 4px;
+        color: red;
+        font-weight: bold;
+    }
+}
